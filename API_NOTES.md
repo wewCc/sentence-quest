@@ -4,7 +4,7 @@
 
 | 接口 | 本次核验 | 用途 |
 | --- | --- | --- |
-| [Datamuse](https://www.datamuse.com/api/) | clarity 查询 HTTP 200；Origin 为本地预览时返回匹配的 CORS 头；浏览器 evidence、clarity 查询显示真实释义 | 当前主接口，精确匹配查询词，按词性归组 |
+| [Datamuse](https://www.datamuse.com/api/) | clarity 查询 HTTP 200；Origin 为本地预览时返回匹配的 CORS 头；本地浏览器 evidence、clarity 查询显示真实释义，GitHub Pages HTTPS 线上 clarity 查询也成功 | 当前主接口，精确匹配查询词，按词性归组 |
 | [Free Dictionary API](https://dictionaryapi.dev/) | 官方文档支持免密钥词条查询；本次网络请求 HTTP 530 | 备用接口；不能保证任何时刻均可用 |
 | English Dictionary API | 本次请求 15 秒超时，未接入 | 未作为可用服务发布 |
 

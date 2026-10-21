@@ -2,6 +2,10 @@
 
 一个纯前端英语互动学习站，适合已有一定基础、希望提高造句和表达能力的学习者。结合知识地图、系统讲解、句子拼装和自主造句，场景涵盖日常交流、工作与学术表达。
 
+**在线学习：[句子玩家 · Sentence Quest](https://wewcc.github.io/sentence-quest/)**
+
+源码仓库：[wewCc/sentence-quest](https://github.com/wewCc/sentence-quest)。已使用 `main` 分支根目录发布 GitHub Pages，后续提交到该分支会自动重新部署。
+
 使用原生 HTML、CSS、JavaScript，没有 npm 依赖、账号服务或后端。网站运行和发布不需要构建；内容维护时可用自带 Node 脚本合并课程。页面采用相对资源路径和 hash 路由，可部署到 GitHub Pages 的仓库子路径。
 
 ## 当前功能
