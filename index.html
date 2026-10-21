@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#19382e" />
+    <meta name="description" content="句子玩家：用知识地图、词块拼装与自主造句，把英语知识变成表达能力。纯前端英语互动学习站。" />
+    <title>句子玩家 · 把想法拼成英语</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2319382e'/%3E%3Cpath d='M16 19h22v12H26v14H14V31h2zm24 14h10v12H40z' fill='%23e9f299'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./data.js" defer></script>
+    <script src="./showcase-data.js" defer></script>
+    <script src="./dictionary.js" defer></script>
+    <script src="./extras.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link sr-only" href="#main-content">跳到主要内容</a>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="#map" aria-label="句子玩家首页">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><rect x="5" y="7" width="20" height="10" rx="3" fill="currentColor"/><rect x="5" y="21" width="10" height="12" rx="3" fill="currentColor"/><rect x="19" y="21" width="16" height="12" rx="3" fill="currentColor"/></svg></span>
+          <span><strong class="brand-name">句子玩家</strong><span class="brand-tagline">SENTENCE QUEST</span></span>
+        </a>
+        <nav class="side-nav" id="main-nav"></nav>
+        <div class="sidebar-bottom">
+          <div class="guide-card"><span class="eyebrow">LEARN BY MAKING</span><h3>会表达，才算学会。</h3><p>从一个词块出发，<br />搭起属于你的句子。</p><button class="btn btn-secondary btn-small" data-action="start-writing">试着写一句 <span aria-hidden="true">↗</span></button></div>
+          <p class="footer-note">零后端 · 进度保存在此浏览器</p>
+        </div>
+      </aside>
+      <div class="main-shell">
+        <header class="topbar">
+          <div><span class="eyebrow">YOUR ENGLISH ADVENTURE</span><p class="topbar-greeting">今天，也让表达向前一步。</p></div>
+          <div class="topbar-actions"><span class="xp-pill" id="header-xp">✦ 0 XP</span><button class="avatar" data-action="show-progress" aria-label="查看学习记录">我</button></div>
+        </header>
+        <main class="page-content" id="main-content" tabindex="-1"></main>
+      </div>
+    </div>
+    <dialog class="learning-dialog" id="learning-dialog" aria-labelledby="dialog-title"></dialog>
+    <div class="toast-region" id="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+    <noscript><p style="padding:24px">这个互动学习站需要启用 JavaScript。全部练习在浏览器本地运行。</p></noscript>
+  </body>
+</html>
