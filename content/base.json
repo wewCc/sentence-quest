@@ -1,0 +1,2709 @@
+{
+  "worlds": [
+    {
+      "id": "parts",
+      "title": "词性森林",
+      "subtitle": "Know your building blocks",
+      "icon": "leaf",
+      "color": "#2b7664",
+      "description": "认清词的角色，让名词、动词与形容词各就各位。"
+    },
+    {
+      "id": "sentence",
+      "title": "句型工坊",
+      "subtitle": "Build a stronger sentence",
+      "icon": "blocks",
+      "color": "#dc7446",
+      "description": "掌握五大句型，把谁、做什么、对谁说清楚。"
+    },
+    {
+      "id": "tense",
+      "title": "时态时光站",
+      "subtitle": "Put your ideas in time",
+      "icon": "clock",
+      "color": "#6476ae",
+      "description": "说清过去、现在与未来，表达过程、结果和可能。"
+    },
+    {
+      "id": "modifier",
+      "title": "修饰花园",
+      "subtitle": "Make every detail count",
+      "icon": "flower",
+      "color": "#879042",
+      "description": "添加恰到好处的细节，让表达更准确、更丰富。"
+    },
+    {
+      "id": "clause",
+      "title": "从句城堡",
+      "subtitle": "Connect more complex ideas",
+      "icon": "castle",
+      "color": "#9b74a6",
+      "description": "连接原因、条件和补充信息，驾驭更复杂的想法。"
+    },
+    {
+      "id": "expression",
+      "title": "表达宇宙",
+      "subtitle": "Say it in your own words",
+      "icon": "planet",
+      "color": "#53879a",
+      "description": "在日常、工作与学术场景中，完成真实的交流任务。"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "p-nouns",
+      "world": "parts",
+      "title": "名词与代词：确定谈论的对象",
+      "tag": "n. / pron.",
+      "summary": "名词命名人、事物和概念；代词可以指代语境中明确的对象。",
+      "analogy": "名词是角色姓名，代词是上下文里能认出的代号。",
+      "formula": [
+        {
+          "text": "My team",
+          "role": "subject"
+        },
+        {
+          "text": "needs",
+          "role": "verb"
+        },
+        {
+          "text": "feedback",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "My team needs feedback.",
+        "zh": "我的团队需要反馈。"
+      },
+      "points": [
+        "team、proposal、feedback 都是名词；I、we、they 是代词。",
+        "主格 I / we / she 常作主语；宾格 me / us / her 常作宾语。",
+        "feedback 在此是不可数名词，可以说 some feedback。"
+      ],
+      "pitfall": "词性不等于句子成分：名词可以作主语，也可以作宾语。",
+      "level": "基础"
+    },
+    {
+      "id": "p-verbs",
+      "world": "parts",
+      "title": "动词：让句子有动作和状态",
+      "tag": "v. / auxiliary",
+      "summary": "谓语表达动作或状态；助动词与主要动词一起构成时态、疑问或否定。",
+      "analogy": "主要动词决定发生什么，助动词给动作安装时间和语气开关。",
+      "formula": [
+        {
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "text": "are reviewing",
+          "role": "verb"
+        },
+        {
+          "text": "the proposal",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "We are reviewing the proposal.",
+        "zh": "我们正在审阅这份提案。"
+      },
+      "points": [
+        "review、work、discuss 可表达动作；be 可连接主语和状态。",
+        "are reviewing 是现在进行时的谓语整体。",
+        "do / does / did 可以帮助普通实义动词构成疑问和否定。"
+      ],
+      "pitfall": "不能把 We reviewing 当作完整的一般陈述句；这里需要 are。",
+      "level": "基础"
+    },
+    {
+      "id": "p-modifiers",
+      "world": "parts",
+      "title": "形容词和副词：说清特点与方式",
+      "tag": "adj. / adv.",
+      "summary": "形容词常描述名词或主语的状态；副词常修饰动作、形容词或其他副词。",
+      "analogy": "形容词给角色贴特点标签，副词给动作加上方式说明。",
+      "formula": [
+        {
+          "text": "She",
+          "role": "subject"
+        },
+        {
+          "text": "explains",
+          "role": "verb"
+        },
+        {
+          "text": "the problem",
+          "role": "object"
+        },
+        {
+          "text": "clearly",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "She explains the problem clearly.",
+        "zh": "她把这个问题解释得很清楚。"
+      },
+      "points": [
+        "a practical method 中 practical 修饰名词 method。",
+        "This method is practical 中 practical 是主语补足语，传统语法称表语。",
+        "explain clearly 中 clearly 说明解释的方式；并非所有副词都以 -ly 结尾。"
+      ],
+      "pitfall": "表达“解释得清楚”用 explains clearly，不用 explains clear。",
+      "level": "基础"
+    },
+    {
+      "id": "p-links",
+      "world": "parts",
+      "title": "冠词、介词、连词：连接表达",
+      "tag": "a / the · after · and",
+      "summary": "冠词帮助界定名词，介词表达关系，连词连接并列成分或分句。",
+      "analogy": "这些小词是句子的连接件，让内容之间的关系看得见。",
+      "formula": [
+        {
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "text": "meet",
+          "role": "verb"
+        },
+        {
+          "text": "after lunch",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "We meet after lunch.",
+        "zh": "我们午饭后见面。"
+      },
+      "points": [
+        "a proposal 常用于首次提及的一份提案；the proposal 常指语境中明确的那份。",
+        "after lunch、in the office、with my team 都是介词短语。",
+        "and、but 可以连接同类结构；because 可以引出原因分句。"
+      ],
+      "pitfall": "介词后常接名词、代词或 -ing 形式；例如 after lunch / after reviewing the report。",
+      "level": "基础"
+    },
+    {
+      "id": "p-roles",
+      "world": "parts",
+      "title": "词性与句子成分：两张不同的地图",
+      "tag": "word class ≠ sentence role",
+      "summary": "词性描述一个词属于哪一类；句子成分描述一个词或词组在当前句中承担什么任务。",
+      "analogy": "“职业”像词性，“本场分工”像句子成分：同一类词可以承担不同分工。",
+      "formula": [
+        {
+          "text": "The update",
+          "role": "subject"
+        },
+        {
+          "text": "saves",
+          "role": "verb"
+        },
+        {
+          "text": "us",
+          "role": "object"
+        },
+        {
+          "text": "time",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "The update saves us time.",
+        "zh": "这次更新为我们节省时间。"
+      },
+      "points": [
+        "update 和 time 在这里都是名词，但分别出现在主语和宾语位置。",
+        "us 是宾格代词，在这个双宾语结构中指受益者。",
+        "彩色词块标记的是当前句中的成分，不是固定词性。"
+      ],
+      "pitfall": "不要把“名词”等同于“主语”，也不要把“形容词”等同于“定语”。",
+      "level": "基础"
+    },
+    {
+      "id": "s-sv",
+      "world": "sentence",
+      "title": "主语 + 谓语：表达一件事发生了",
+      "tag": "S + V",
+      "summary": "有些动词不需要宾语，就可以表达完整的动作或事件。",
+      "analogy": "先让主角登场，再按下动作键；场景细节可以随后补充。",
+      "formula": [
+        {
+          "text": "The experiment",
+          "role": "subject"
+        },
+        {
+          "text": "worked",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "The experiment worked.",
+        "zh": "实验成功了。"
+      },
+      "points": [
+        "S 指主语，V 指谓语；The experiment 是主语整体。",
+        "这里 worked 表示“奏效、成功”，不需要直接宾语。",
+        "可加时间或方式：The experiment worked well yesterday。"
+      ],
+      "pitfall": "并非所有动词都能这样使用；need 通常要说明需要什么。",
+      "level": "基础"
+    },
+    {
+      "id": "s-svo",
+      "world": "sentence",
+      "title": "主语 + 谓语 + 宾语：把动作指向对象",
+      "tag": "S + V + O",
+      "summary": "用及物动词说明谁对什么对象做了什么，是工作表达中很常见的骨架。",
+      "analogy": "动作像一支箭，宾语就是箭头指向的目标。",
+      "formula": [
+        {
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "text": "discussed",
+          "role": "verb"
+        },
+        {
+          "text": "the plan",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "We discussed the plan.",
+        "zh": "我们讨论了这个计划。"
+      },
+      "points": [
+        "discuss 是及物动词，直接接讨论对象。",
+        "普通实义动词可用 do / does / did 构成疑问：Do you need more time?",
+        "否定可用 do not / does not / did not；助动词之后的主要动词用原形。"
+      ],
+      "pitfall": "表达讨论某事用 discuss something；不要加成 discuss about something。",
+      "level": "基础"
+    },
+    {
+      "id": "s-svc",
+      "world": "sentence",
+      "title": "主语 + 系动词 + 表语：描述状态",
+      "tag": "S + V + C",
+      "summary": "系动词连接主语与说明主语身份、特点或状态的补足语，也常称表语。",
+      "analogy": "系动词是一座桥，把“谁”连接到“是什么、怎么样”。",
+      "formula": [
+        {
+          "text": "The results",
+          "role": "subject"
+        },
+        {
+          "text": "look",
+          "role": "verb"
+        },
+        {
+          "text": "promising",
+          "role": "complement"
+        }
+      ],
+      "example": {
+        "en": "The results look promising.",
+        "zh": "结果看起来很有希望。"
+      },
+      "points": [
+        "be、seem、look、become 等在特定用法中可以作系动词。",
+        "promising 描述 results 的状态，属于主语补足语。",
+        "look promising 表示看起来有希望；look carefully 中 look 表示“看”的动作。"
+      ],
+      "pitfall": "同一个动词可能有不同用法；不能只看动词就认定句型。",
+      "level": "基础"
+    },
+    {
+      "id": "s-svoo",
+      "world": "sentence",
+      "title": "主语 + 谓语 + 双宾语：把什么给谁",
+      "tag": "S + V + IO + DO",
+      "summary": "某些动词可以同时接接收者和事物，常用于发送、提供和告知。",
+      "analogy": "一次交付要交代两件事：交给谁，交付什么。",
+      "formula": [
+        {
+          "text": "She",
+          "role": "subject"
+        },
+        {
+          "text": "sent",
+          "role": "verb"
+        },
+        {
+          "text": "me",
+          "role": "object"
+        },
+        {
+          "text": "the notes",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "She sent me the notes.",
+        "zh": "她把笔记发给了我。"
+      },
+      "points": [
+        "me 是间接宾语，the notes 是直接宾语。",
+        "send me the notes 也可以表达为 send the notes to me。",
+        "并非每个动词都允许双宾语；例如 explain the problem to me。"
+      ],
+      "pitfall": "不要机械套用成 explain me the problem；用 explain the problem to me。",
+      "level": "基础"
+    },
+    {
+      "id": "s-svoc",
+      "world": "sentence",
+      "title": "主语 + 谓语 + 宾语 + 补语：说明对象的变化",
+      "tag": "S + V + O + C",
+      "summary": "宾语补足语说明宾语处于什么状态、具有什么身份或发生什么变化。",
+      "analogy": "动作改变了目标，最后的词块告诉你改变后的样子。",
+      "formula": [
+        {
+          "text": "The feedback",
+          "role": "subject"
+        },
+        {
+          "text": "made",
+          "role": "verb"
+        },
+        {
+          "text": "my argument",
+          "role": "object"
+        },
+        {
+          "text": "clearer",
+          "role": "complement"
+        }
+      ],
+      "example": {
+        "en": "The feedback made my argument clearer.",
+        "zh": "这些反馈让我的论证更清晰了。"
+      },
+      "points": [
+        "clearer 描述宾语 my argument，不能把两者都看成宾语。",
+        "make something clearer、find something useful 都是常见表达。",
+        "可用宾语与补语的关系理解：my argument became clearer。"
+      ],
+      "pitfall": "双宾语回答“给谁、给什么”；宾补结构说明“宾语怎么样”。",
+      "level": "基础"
+    },
+    {
+      "id": "t-general",
+      "world": "tense",
+      "title": "一般时：习惯与已发生的事",
+      "tag": "现在／过去／未来表达",
+      "summary": "先确定时间与说话意图，再选择动词形式。",
+      "analogy": "把时间看作日历：习惯会重复打卡，过去的事情已经归档。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "一般时动词",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        },
+        {
+          "text": "时间信息",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "She reviews the report every Friday.",
+        "zh": "她每周五审核报告。"
+      },
+      "points": [
+        "一般现在时常表达习惯或事实；第三人称单数作主语时，普通动词通常加 -s/-es。",
+        "一般过去时常描述已结束的过去事件；will + 动词原形可以表达对未来的预测或当下决定。"
+      ],
+      "pitfall": "一般过去时和 did 连用时，过去含义由 did 承担：Did you finish? 不能写成 Did you finished?",
+      "level": "基础"
+    },
+    {
+      "id": "t-progressive",
+      "world": "tense",
+      "title": "进行时：把镜头对准正在发生的事",
+      "tag": "be + -ing",
+      "summary": "进行时强调某个时间点前后正在展开的动作。",
+      "analogy": "进行时像按下摄像机录制键，呈现过程而非习惯。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "be + 动词-ing",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "We are testing a new model.",
+        "zh": "我们正在测试一个新模型。"
+      },
+      "points": [
+        "现在进行时常用 am/is/are + 动词-ing；过去进行时用 was/were + 动词-ing。",
+        "常态与临时过程不同：I work here 说工作情况；I am working on a report 说当前任务。"
+      ],
+      "pitfall": "know、believe 等状态动词在表达通常含义时一般不用进行时；不能只保留 -ing 而漏掉 be。",
+      "level": "基础"
+    },
+    {
+      "id": "t-perfect",
+      "world": "tense",
+      "title": "现在完成时：过去与现在的连线",
+      "tag": "have/has + 过去分词",
+      "summary": "现在完成时把过去的经历、结果或持续状态与现在联系起来。",
+      "analogy": "事情发生在过去，但一根线把它拉到现在。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "have/has + 过去分词",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "I have finished the first draft.",
+        "zh": "我已经完成了初稿。"
+      },
+      "points": [
+        "强调现在可用的结果、截至现在的经历，或延续至今的状态时，可以考虑现在完成时。",
+        "现在完成时通常不与 yesterday 等明确结束的过去时间连用；那类场景常用一般过去时。"
+      ],
+      "pitfall": "过去分词不总是过去式：write 的过去式是 wrote，过去分词是 written。",
+      "level": "进阶"
+    },
+    {
+      "id": "t-modal",
+      "world": "tense",
+      "title": "情态动词：能力、建议与可能性",
+      "tag": "can／should／might",
+      "summary": "情态动词让一个动作带上能力、建议或不确定程度。",
+      "analogy": "动作像一盏灯，情态动词是调节它语气的旋钮。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "情态动词 + 动词原形",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "We should check the results again.",
+        "zh": "我们应该再检查一下结果。"
+      },
+      "points": [
+        "can 常表达能力或许可，should 常表达建议，might 常表达可能性。",
+        "这类情态动词后通常接动词原形；否定时在其后加 not。"
+      ],
+      "pitfall": "She can helps us 应改为 She can help us；不要在 can、should 后给普通动词加 -s。",
+      "level": "基础"
+    },
+    {
+      "id": "t-passive",
+      "world": "tense",
+      "title": "被动语态：把注意力放在承受者上",
+      "tag": "be + 过去分词",
+      "summary": "当动作承受者更重要或执行者不必说明时，可以使用被动语态。",
+      "analogy": "同一个镜头换主角：从谁做事，转向什么被处理。",
+      "formula": [
+        {
+          "text": "动作承受者作主语",
+          "role": "subject"
+        },
+        {
+          "text": "be + 过去分词",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        }
+      ],
+      "example": {
+        "en": "The report was reviewed yesterday.",
+        "zh": "这份报告昨天已被审阅。"
+      },
+      "points": [
+        "被动语态的核心是 be + 过去分词；be 的形式体现时间并与主语配合。",
+        "需要说明执行者时可以加 by + 执行者；无需说明时可以省略。"
+      ],
+      "pitfall": "The report reviewed yesterday 作为完整主句会缺少谓语中的 be；可写成 The report was reviewed yesterday。",
+      "level": "进阶"
+    },
+    {
+      "id": "m-adjective",
+      "world": "modifier",
+      "title": "形容词：让人和事物更具体",
+      "tag": "名词前修饰／系动词后补充",
+      "summary": "形容词可以修饰名词，也可以在系动词之后说明主语的性质。",
+      "analogy": "名词搭起人物轮廓，形容词为它补上颜色和特征。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "系动词",
+          "role": "verb"
+        },
+        {
+          "text": "形容词作表语",
+          "role": "complement"
+        }
+      ],
+      "example": {
+        "en": "The new method is reliable.",
+        "zh": "这个新方法是可靠的。"
+      },
+      "points": [
+        "名词前的形容词通常作定语，如 a useful tool；系动词后的形容词可以作表语，如 The tool is useful。",
+        "词性和句子成分不同：形容词是词性，定语、表语描述它在句中的作用。"
+      ],
+      "pitfall": "She speaks fluent English 中 fluent 修饰 English；She speaks fluently 中 fluently 修饰 speaks。",
+      "level": "基础"
+    },
+    {
+      "id": "m-adverb",
+      "world": "modifier",
+      "title": "副词：表达方式、频率与程度",
+      "tag": "如何做／多久一次／到什么程度",
+      "summary": "副词可以修饰动词、形容词、其他副词，或整个句子。",
+      "analogy": "动词负责动作，副词像导演，交代动作怎么完成。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "动词",
+          "role": "verb"
+        },
+        {
+          "text": "宾语",
+          "role": "object"
+        },
+        {
+          "text": "方式副词",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "Please explain the idea clearly.",
+        "zh": "请把这个想法解释清楚。"
+      },
+      "points": [
+        "方式副词常放在动词及其宾语之后，如 explain the idea clearly。",
+        "频率副词常在普通实义动词前、be 之后，如 I often read 和 She is often busy。"
+      ],
+      "pitfall": "副词不都以 -ly 结尾，fast 同时可以作形容词或副词；friendly 通常是形容词。",
+      "level": "基础"
+    },
+    {
+      "id": "m-preposition",
+      "world": "modifier",
+      "title": "介词短语：补充位置、时间与关系",
+      "tag": "介词 + 名词性成分",
+      "summary": "介词短语可以交代地点、时间等信息，也可以修饰名词。",
+      "analogy": "给核心句安装坐标牌：在哪里、什么时候、和谁一起。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "谓语",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        },
+        {
+          "text": "介词短语",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "We discussed the plan in the meeting room.",
+        "zh": "我们在会议室讨论了这个计划。"
+      },
+      "points": [
+        "in the meeting room 可以补充地点；the book on the desk 中 on the desk 修饰 book。",
+        "同一种形式可以承担不同成分，需结合它与句中其他词的关系判断。"
+      ],
+      "pitfall": "介词搭配要一起记：讨论某事是 discuss something，不能机械地写成 discuss about something。",
+      "level": "基础"
+    },
+    {
+      "id": "m-comparison",
+      "world": "modifier",
+      "title": "比较结构：说明差异与选择",
+      "tag": "比较级 + than／as ... as",
+      "summary": "比较结构帮助你清楚说明两个方案的差异。",
+      "analogy": "给两个方案放到同一把尺子上，说明比较的是哪一项。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "系动词",
+          "role": "verb"
+        },
+        {
+          "text": "比较级",
+          "role": "complement"
+        },
+        {
+          "text": "than + 比较对象",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "This method is more reliable than the old one.",
+        "zh": "这个方法比旧方法更可靠。"
+      },
+      "points": [
+        "短形容词常加 -er，较长的形容词常用 more，如 faster 和 more reliable。",
+        "as + 原级 + as 表示在某方面程度相当；比较双方要有可比性。"
+      ],
+      "pitfall": "不要把 more 与已经变化的比较级叠加：more faster 应改为 faster。",
+      "level": "进阶"
+    },
+    {
+      "id": "m-nonfinite",
+      "world": "modifier",
+      "title": "非谓语：把动作嵌入句子",
+      "tag": "to do／doing／过去分词",
+      "summary": "动词的不定式、-ing 形式和过去分词可以在不同结构中承担非谓语功能。",
+      "analogy": "一句话有主干引擎，也能带上表示目的、内容或修饰信息的小模块。",
+      "formula": [
+        {
+          "text": "主语",
+          "role": "subject"
+        },
+        {
+          "text": "谓语",
+          "role": "verb"
+        },
+        {
+          "text": "其他成分（按需）",
+          "role": "neutral"
+        },
+        {
+          "text": "to do 表目的",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "We use examples to explain the concept.",
+        "zh": "我们用例子来解释这个概念。"
+      },
+      "points": [
+        "to do 常可表达目的；动词后接 to do 还是 doing 往往取决于具体搭配，如 want to learn、enjoy learning。",
+        "-ing 或过去分词也可修饰名词，如 a growing team、a revised draft；具体含义要结合语境。"
+      ],
+      "pitfall": "不能把所有 to 都看作不定式标记：look forward to 后的 to 是介词，后接名词或 -ing 形式。",
+      "level": "进阶"
+    },
+    {
+      "id": "c-l1",
+      "world": "clause",
+      "title": "关系从句：说清是哪一个",
+      "tag": "定语从句",
+      "summary": "把一个句子放在名词后，补充这个人或事物的信息。",
+      "analogy": "先说一个文件，再贴一张标签：就是你要的那份。",
+      "formula": [
+        {
+          "text": "The report",
+          "role": "subject"
+        },
+        {
+          "text": "that you requested",
+          "role": "modifier"
+        },
+        {
+          "text": "is",
+          "role": "verb"
+        },
+        {
+          "text": "ready",
+          "role": "complement"
+        }
+      ],
+      "example": {
+        "en": "The report that you requested is ready.",
+        "zh": "你要的那份报告准备好了。"
+      },
+      "points": [
+        "关系从句通常紧跟被修饰的名词；who 常指人，which 常指物，that 可指人或物。",
+        "先找到主句骨架 The report is ready，再看从句补充的限定信息。"
+      ],
+      "pitfall": "本课例句是限定性关系从句。非限定性关系从句需要逗号，通常不能用 that 引导。",
+      "level": "进阶"
+    },
+    {
+      "id": "c-l2",
+      "world": "clause",
+      "title": "宾语从句：把想法装进句子",
+      "tag": "that 从句",
+      "summary": "一个完整的命题也可以充当动词的宾语，用来表达观点、发现或判断。",
+      "analogy": "think 后面的宾语可以是一个装着完整想法的盒子。",
+      "formula": [
+        {
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "text": "think",
+          "role": "verb"
+        },
+        {
+          "text": "that the plan is practical",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "I think that the plan is practical.",
+        "zh": "我认为这个计划是可行的。"
+      },
+      "points": [
+        "I think 是主句，that the plan is practical 是宾语从句。",
+        "that 引导陈述内容，在很多常见表达中可以省略；本课保留它来显示结构。"
+      ],
+      "pitfall": "间接疑问句采用陈述语序：I wonder where he works，而不是 where does he work。",
+      "level": "进阶"
+    },
+    {
+      "id": "c-l3",
+      "world": "clause",
+      "title": "because：让理由说清楚",
+      "tag": "原因状语从句",
+      "summary": "用 because 引出一个包含主语和谓语的原因。",
+      "analogy": "给一个决定补上理由，让听者知道你为什么这样做。",
+      "formula": [
+        {
+          "text": "We postponed the meeting",
+          "role": "neutral"
+        },
+        {
+          "text": "because",
+          "role": "connector"
+        },
+        {
+          "text": "the manager was away",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "We postponed the meeting because the manager was away.",
+        "zh": "因为经理不在，我们推迟了会议。"
+      },
+      "points": [
+        "because 后接从句；because of 后通常接名词或名词短语。",
+        "原因从句放在主句前时，通常用逗号分隔：Because it was late, we left。"
+      ],
+      "pitfall": "在这种主从复合句中，不要照搬中文把 because 和 so 同时用来连接同一对分句。",
+      "level": "基础"
+    },
+    {
+      "id": "c-l4",
+      "world": "clause",
+      "title": "if：表达可能发生的条件",
+      "tag": "真实条件句",
+      "summary": "讨论未来可能发生的条件时，if 从句常用一般现在时，主句可以用 will。",
+      "analogy": "先放一扇条件门：条件成立，我们再采取下一步行动。",
+      "formula": [
+        {
+          "text": "If we finish early,",
+          "role": "modifier"
+        },
+        {
+          "text": "we",
+          "role": "subject"
+        },
+        {
+          "text": "will review",
+          "role": "verb"
+        },
+        {
+          "text": "the results",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "If we finish early, we will review the results.",
+        "zh": "如果我们提前完成，就会检查结果。"
+      },
+      "points": [
+        "本课练真实、开放的未来条件，不涉及与事实相反的假设。",
+        "主句也可以是建议或祈使句：If you need help, ask me。"
+      ],
+      "pitfall": "在本课这类未来条件表达中，if 从句通常不用 will 表示单纯的将来。",
+      "level": "基础"
+    },
+    {
+      "id": "c-l5",
+      "world": "clause",
+      "title": "although：承认事实，再表达观点",
+      "tag": "让步状语从句",
+      "summary": "用 although 承认一个事实，再表达看似与之相反的结果。",
+      "analogy": "先退一步说“虽然如此”，再说你真正想强调的事。",
+      "formula": [
+        {
+          "text": "Although the task was difficult,",
+          "role": "modifier"
+        },
+        {
+          "text": "we",
+          "role": "subject"
+        },
+        {
+          "text": "finished",
+          "role": "verb"
+        },
+        {
+          "text": "it",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "Although the task was difficult, we finished it.",
+        "zh": "虽然任务很难，我们还是完成了。"
+      },
+      "points": [
+        "although 后接完整从句，though 在很多语境下也可以这样用。",
+        "从句放在前面时通常加逗号；放在后面时很多情况下不需要逗号。"
+      ],
+      "pitfall": "在同一组主从句中，不要把 although 和 but 配成中文“虽然……但是……”的固定格式。",
+      "level": "进阶"
+    },
+    {
+      "id": "e-l1",
+      "world": "expression",
+      "title": "日常交流：把习惯说具体",
+      "tag": "频率与习惯",
+      "summary": "用动作、频率和时间信息，把一个简单句变成有内容的日常表达。",
+      "analogy": "句子骨架是衣架，频率和时间是你挂上去的生活细节。",
+      "formula": [
+        {
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "text": "usually",
+          "role": "modifier"
+        },
+        {
+          "text": "read",
+          "role": "verb"
+        },
+        {
+          "text": "before bed",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "I usually read before bed.",
+        "zh": "我通常在睡前阅读。"
+      },
+      "points": [
+        "usually、often 等频率副词常位于实义动词前；be 动词后也常放频率副词。",
+        "时间和地点信息帮助对方理解你的习惯，但不必每次都把所有细节写进去。"
+      ],
+      "pitfall": "不要把中文词序直接套进去。先确定主语和动作，再安排修饰信息。",
+      "level": "基础"
+    },
+    {
+      "id": "e-l2",
+      "world": "expression",
+      "title": "礼貌请求：让协作更顺畅",
+      "tag": "Could you...?",
+      "summary": "用 Could you + 动词原形，向对方提出礼貌的请求。",
+      "analogy": "把直接的指令加上一层礼貌缓冲，让对方更容易回应。",
+      "formula": [
+        {
+          "text": "Could",
+          "role": "verb"
+        },
+        {
+          "text": "you",
+          "role": "subject"
+        },
+        {
+          "text": "share",
+          "role": "verb"
+        },
+        {
+          "text": "the slides",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "Could you share the slides after the meeting?",
+        "zh": "你能在会后分享一下幻灯片吗？"
+      },
+      "points": [
+        "这里的 could 用来让请求更委婉，不是在叙述过去的能力。",
+        "可以按需要补上 please，但礼貌还取决于语境、语气和请求内容。"
+      ],
+      "pitfall": "could 后的实义动词用原形；不能说 Could you shared...。",
+      "level": "基础"
+    },
+    {
+      "id": "e-l3",
+      "world": "expression",
+      "title": "给出建议：说明下一步行动",
+      "tag": "should + 动词原形",
+      "summary": "用 should 提出建议，并把建议落到具体可执行的动作。",
+      "analogy": "给建议像递一张下一步行动卡：做什么、对什么做。",
+      "formula": [
+        {
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "text": "should review",
+          "role": "verb"
+        },
+        {
+          "text": "the plan",
+          "role": "object"
+        },
+        {
+          "text": "together",
+          "role": "modifier"
+        }
+      ],
+      "example": {
+        "en": "We should review the plan together.",
+        "zh": "我们应该一起检查这个计划。"
+      },
+      "points": [
+        "should 后接动词原形，不随主语人称变化。",
+        "表达建议也可用 We could... 或 How about + 动名词，根据语气选择。"
+      ],
+      "pitfall": "建议不等于确定会发生；不要用 should 来代替所有将来表达。",
+      "level": "基础"
+    },
+    {
+      "id": "e-l4",
+      "world": "expression",
+      "title": "汇报进度：连接过去与现在",
+      "tag": "现在完成时应用",
+      "summary": "用 have/has + 过去分词，汇报对当前工作有影响的完成情况。",
+      "analogy": "把过去的行动和现在的状态连起来：稿子写完了，现在可以讨论。",
+      "formula": [
+        {
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "text": "have finished",
+          "role": "verb"
+        },
+        {
+          "text": "the first draft",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "I have finished the first draft.",
+        "zh": "我已经完成了初稿。"
+      },
+      "points": [
+        "汇报完成情况时，现在完成时能突出当前结果。",
+        "如果明确说 yesterday、last week 等结束的过去时间，通常改用一般过去时。"
+      ],
+      "pitfall": "不规则动词需要用过去分词，例如 have written，而不是 have wrote。",
+      "level": "基础"
+    },
+    {
+      "id": "e-l5",
+      "world": "expression",
+      "title": "学术表达：让结论与证据相称",
+      "tag": "谨慎陈述",
+      "summary": "用 suggest 和 may 等表达，让读者区分研究观察与已经确证的结论。",
+      "analogy": "证据像一盏灯：照亮了哪里，就说清哪里，不把有限结果扩展成万能结论。",
+      "formula": [
+        {
+          "text": "The results",
+          "role": "subject"
+        },
+        {
+          "text": "suggest",
+          "role": "verb"
+        },
+        {
+          "text": "that the method may help",
+          "role": "object"
+        }
+      ],
+      "example": {
+        "en": "The results suggest that the method may help.",
+        "zh": "这些结果提示，这种方法可能有所帮助。"
+      },
+      "points": [
+        "suggest that... 可引出结果支持的一种判断；may 表示可能性。",
+        "实际写作还应交代数据、指标和适用条件。本课只练表达结构，不评价研究结论是否成立。"
+      ],
+      "pitfall": "不要把 may improve 当成已经证明有效，也不要为了谨慎而让句子失去具体含义。",
+      "level": "进阶"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "p-ex1",
+      "world": "parts",
+      "lessonId": "p-nouns",
+      "prompt": "说明团队当前需要什么。",
+      "translation": "我的团队需要反馈。",
+      "tokens": [
+        {
+          "id": "p-ex1-t1",
+          "text": "My team",
+          "role": "subject"
+        },
+        {
+          "id": "p-ex1-t2",
+          "text": "needs",
+          "role": "verb"
+        },
+        {
+          "id": "p-ex1-t3",
+          "text": "feedback",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "p-ex1-t1",
+        "p-ex1-t2",
+        "p-ex1-t3"
+      ],
+      "explanation": "My team 是单数整体，这里用 needs；feedback 作不可数名词。",
+      "hint": "先放“谁”，再放“需要”，最后放所需内容。"
+    },
+    {
+      "id": "p-ex2",
+      "world": "parts",
+      "lessonId": "p-verbs",
+      "prompt": "表达正在进行的工作。",
+      "translation": "我们正在审阅这份提案。",
+      "tokens": [
+        {
+          "id": "p-ex2-t1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "p-ex2-t2",
+          "text": "are reviewing",
+          "role": "verb"
+        },
+        {
+          "id": "p-ex2-t3",
+          "text": "the proposal",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "p-ex2-t1",
+        "p-ex2-t2",
+        "p-ex2-t3"
+      ],
+      "explanation": "are reviewing 一起构成现在进行时谓语，说明审阅正在进行。",
+      "hint": "谓语词块已经包含助动词 are。"
+    },
+    {
+      "id": "p-ex3",
+      "world": "parts",
+      "lessonId": "p-modifiers",
+      "prompt": "评价一个方法。",
+      "translation": "这个方法很实用。",
+      "tokens": [
+        {
+          "id": "p-ex3-t1",
+          "text": "This method",
+          "role": "subject"
+        },
+        {
+          "id": "p-ex3-t2",
+          "text": "is",
+          "role": "verb"
+        },
+        {
+          "id": "p-ex3-t3",
+          "text": "practical",
+          "role": "complement"
+        }
+      ],
+      "answer": [
+        "p-ex3-t1",
+        "p-ex3-t2",
+        "p-ex3-t3"
+      ],
+      "explanation": "is 连接主语和形容词 practical，表达方法的特点。",
+      "hint": "“是什么样”放在 be 动词后。"
+    },
+    {
+      "id": "p-ex4",
+      "world": "parts",
+      "lessonId": "p-modifiers",
+      "prompt": "说明解释问题的方式。",
+      "translation": "她把这个问题解释得很清楚。",
+      "tokens": [
+        {
+          "id": "p-ex4-t1",
+          "text": "She",
+          "role": "subject"
+        },
+        {
+          "id": "p-ex4-t2",
+          "text": "explains",
+          "role": "verb"
+        },
+        {
+          "id": "p-ex4-t3",
+          "text": "the problem",
+          "role": "object"
+        },
+        {
+          "id": "p-ex4-t4",
+          "text": "clearly",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "p-ex4-t1",
+        "p-ex4-t2",
+        "p-ex4-t3",
+        "p-ex4-t4"
+      ],
+      "explanation": "clearly 是修饰 explains 的副词，说明解释得怎么样。",
+      "hint": "这题把方式副词放在宾语之后。"
+    },
+    {
+      "id": "p-ex5",
+      "world": "parts",
+      "lessonId": "p-links",
+      "prompt": "约定见面时间。",
+      "translation": "我们午饭后见面。",
+      "tokens": [
+        {
+          "id": "p-ex5-t1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "p-ex5-t2",
+          "text": "meet",
+          "role": "verb"
+        },
+        {
+          "id": "p-ex5-t3",
+          "text": "after lunch",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "p-ex5-t1",
+        "p-ex5-t2",
+        "p-ex5-t3"
+      ],
+      "explanation": "after lunch 是时间介词短语，作为整体说明何时见面。",
+      "hint": "先说 We meet，再补充时间。"
+    },
+    {
+      "id": "p-ex6",
+      "world": "parts",
+      "lessonId": "p-roles",
+      "prompt": "说明更新带来的好处。",
+      "translation": "这次更新为我们节省时间。",
+      "tokens": [
+        {
+          "id": "p-ex6-t1",
+          "text": "The update",
+          "role": "subject"
+        },
+        {
+          "id": "p-ex6-t2",
+          "text": "saves",
+          "role": "verb"
+        },
+        {
+          "id": "p-ex6-t3",
+          "text": "us",
+          "role": "object"
+        },
+        {
+          "id": "p-ex6-t4",
+          "text": "time",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "p-ex6-t1",
+        "p-ex6-t2",
+        "p-ex6-t3",
+        "p-ex6-t4"
+      ],
+      "explanation": "save someone time 表示为某人节省时间；us 在 time 前。",
+      "hint": "先放受益者 us，再放被节省的 time。"
+    },
+    {
+      "id": "s-ex1",
+      "world": "sentence",
+      "lessonId": "s-sv",
+      "prompt": "用最简句型报告实验结果。",
+      "translation": "实验成功了。",
+      "tokens": [
+        {
+          "id": "s-ex1-t1",
+          "text": "The experiment",
+          "role": "subject"
+        },
+        {
+          "id": "s-ex1-t2",
+          "text": "worked",
+          "role": "verb"
+        }
+      ],
+      "answer": [
+        "s-ex1-t1",
+        "s-ex1-t2"
+      ],
+      "explanation": "worked 在这里表示“奏效”，主语和谓语已经构成完整信息。",
+      "hint": "先报告实验，再说明结果。"
+    },
+    {
+      "id": "s-ex2",
+      "world": "sentence",
+      "lessonId": "s-svo",
+      "prompt": "回顾会议中讨论的事项。",
+      "translation": "我们讨论了这个计划。",
+      "tokens": [
+        {
+          "id": "s-ex2-t1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "s-ex2-t2",
+          "text": "discussed",
+          "role": "verb"
+        },
+        {
+          "id": "s-ex2-t3",
+          "text": "the plan",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "s-ex2-t1",
+        "s-ex2-t2",
+        "s-ex2-t3"
+      ],
+      "explanation": "discussed 后直接接宾语 the plan。",
+      "hint": "顺序是“谁 + 做了什么 + 对象”。"
+    },
+    {
+      "id": "s-ex3",
+      "world": "sentence",
+      "lessonId": "s-svc",
+      "prompt": "描述结果目前给人的印象。",
+      "translation": "结果看起来很有希望。",
+      "tokens": [
+        {
+          "id": "s-ex3-t1",
+          "text": "The results",
+          "role": "subject"
+        },
+        {
+          "id": "s-ex3-t2",
+          "text": "look",
+          "role": "verb"
+        },
+        {
+          "id": "s-ex3-t3",
+          "text": "promising",
+          "role": "complement"
+        }
+      ],
+      "answer": [
+        "s-ex3-t1",
+        "s-ex3-t2",
+        "s-ex3-t3"
+      ],
+      "explanation": "look 在这里是系动词，promising 补充说明主语的状态。",
+      "hint": "“结果”之后放“看起来”，再放评价。"
+    },
+    {
+      "id": "s-ex4",
+      "world": "sentence",
+      "lessonId": "s-svoo",
+      "prompt": "说明笔记发给了谁。",
+      "translation": "她把笔记发给了我。",
+      "tokens": [
+        {
+          "id": "s-ex4-t1",
+          "text": "She",
+          "role": "subject"
+        },
+        {
+          "id": "s-ex4-t2",
+          "text": "sent",
+          "role": "verb"
+        },
+        {
+          "id": "s-ex4-t3",
+          "text": "me",
+          "role": "object"
+        },
+        {
+          "id": "s-ex4-t4",
+          "text": "the notes",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "s-ex4-t1",
+        "s-ex4-t2",
+        "s-ex4-t3",
+        "s-ex4-t4"
+      ],
+      "explanation": "sent me the notes 使用“接收者 + 事物”的双宾语顺序。",
+      "hint": "这组词块中，接收者 me 放在笔记前。"
+    },
+    {
+      "id": "s-ex5",
+      "world": "sentence",
+      "lessonId": "s-svoc",
+      "prompt": "说明反馈改善了什么。",
+      "translation": "这些反馈让我的论证更清晰了。",
+      "tokens": [
+        {
+          "id": "s-ex5-t1",
+          "text": "The feedback",
+          "role": "subject"
+        },
+        {
+          "id": "s-ex5-t2",
+          "text": "made",
+          "role": "verb"
+        },
+        {
+          "id": "s-ex5-t3",
+          "text": "my argument",
+          "role": "object"
+        },
+        {
+          "id": "s-ex5-t4",
+          "text": "clearer",
+          "role": "complement"
+        }
+      ],
+      "answer": [
+        "s-ex5-t1",
+        "s-ex5-t2",
+        "s-ex5-t3",
+        "s-ex5-t4"
+      ],
+      "explanation": "clearer 说明 my argument 被改善后的状态，是宾语补足语。",
+      "hint": "made 后先放变化对象，再放变化结果。"
+    },
+    {
+      "id": "s-ex6",
+      "world": "sentence",
+      "lessonId": "s-svo",
+      "prompt": "礼貌确认对方是否需要更多时间。",
+      "translation": "你需要更多时间吗？",
+      "tokens": [
+        {
+          "id": "s-ex6-t1",
+          "text": "Do",
+          "role": "verb"
+        },
+        {
+          "id": "s-ex6-t2",
+          "text": "you",
+          "role": "subject"
+        },
+        {
+          "id": "s-ex6-t3",
+          "text": "need",
+          "role": "verb"
+        },
+        {
+          "id": "s-ex6-t4",
+          "text": "more time",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "s-ex6-t1",
+        "s-ex6-t2",
+        "s-ex6-t3",
+        "s-ex6-t4"
+      ],
+      "explanation": "一般现在时普通实义动词的疑问句可用 Do + 主语 + 动词原形。",
+      "hint": "Do 提到句首，need 保持原形。",
+      "punctuation": "?"
+    },
+    {
+      "id": "t-e1",
+      "world": "tense",
+      "lessonId": "t-general",
+      "prompt": "表达一位导师的固定习惯。",
+      "translation": "我的导师每周一审核我们的计划。",
+      "tokens": [
+        {
+          "id": "t-e1-1",
+          "text": "My supervisor",
+          "role": "subject"
+        },
+        {
+          "id": "t-e1-2",
+          "text": "reviews",
+          "role": "verb"
+        },
+        {
+          "id": "t-e1-3",
+          "text": "our plan",
+          "role": "object"
+        },
+        {
+          "id": "t-e1-4",
+          "text": "every Monday",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "t-e1-1",
+        "t-e1-2",
+        "t-e1-3",
+        "t-e1-4"
+      ],
+      "explanation": "主语 My supervisor 是第三人称单数，习惯性动作使用 reviews。",
+      "hint": "先找到谁做动作，再放动词，最后补充时间。"
+    },
+    {
+      "id": "t-e2",
+      "world": "tense",
+      "lessonId": "t-general",
+      "prompt": "报告一个已经结束的过去事件。",
+      "translation": "我们昨天完成了这项实验。",
+      "tokens": [
+        {
+          "id": "t-e2-1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "t-e2-2",
+          "text": "finished",
+          "role": "verb"
+        },
+        {
+          "id": "t-e2-3",
+          "text": "the experiment",
+          "role": "object"
+        },
+        {
+          "id": "t-e2-4",
+          "text": "yesterday",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "t-e2-1",
+        "t-e2-2",
+        "t-e2-3",
+        "t-e2-4"
+      ],
+      "explanation": "yesterday 指明确结束的过去时间，这里使用一般过去时 finished。",
+      "hint": "不要在 finished 前另外添加 have。"
+    },
+    {
+      "id": "t-e3",
+      "world": "tense",
+      "lessonId": "t-progressive",
+      "prompt": "描述团队眼下正在做的工作。",
+      "translation": "我们正在测试一个新模型。",
+      "tokens": [
+        {
+          "id": "t-e3-1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "t-e3-2",
+          "text": "are testing",
+          "role": "verb"
+        },
+        {
+          "id": "t-e3-3",
+          "text": "a new model",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "t-e3-1",
+        "t-e3-2",
+        "t-e3-3"
+      ],
+      "explanation": "are 与复数主语 We 配合；are testing 把动作呈现为正在展开的过程。",
+      "hint": "进行时要把 be 与 -ing 形式放在一起。"
+    },
+    {
+      "id": "t-e4",
+      "world": "tense",
+      "lessonId": "t-perfect",
+      "prompt": "说明初稿现在已经准备好了。",
+      "translation": "我已经完成了初稿。",
+      "tokens": [
+        {
+          "id": "t-e4-1",
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "id": "t-e4-2",
+          "text": "have finished",
+          "role": "verb"
+        },
+        {
+          "id": "t-e4-3",
+          "text": "the first draft",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "t-e4-1",
+        "t-e4-2",
+        "t-e4-3"
+      ],
+      "explanation": "have finished 表达过去完成的动作及其与现在的联系。",
+      "hint": "主语 I 搭配 have；finished 在这里是过去分词。"
+    },
+    {
+      "id": "t-e5",
+      "world": "tense",
+      "lessonId": "t-modal",
+      "prompt": "向小组提出一个稳妥的建议。",
+      "translation": "我们应该再检查一下结果。",
+      "tokens": [
+        {
+          "id": "t-e5-1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "t-e5-2",
+          "text": "should check",
+          "role": "verb"
+        },
+        {
+          "id": "t-e5-3",
+          "text": "the results",
+          "role": "object"
+        },
+        {
+          "id": "t-e5-4",
+          "text": "again",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "t-e5-1",
+        "t-e5-2",
+        "t-e5-3",
+        "t-e5-4"
+      ],
+      "explanation": "should 表达建议，其后的 check 使用原形。",
+      "hint": "把情态动词与其后的动作看成一个谓语词块。"
+    },
+    {
+      "id": "t-e6",
+      "world": "tense",
+      "lessonId": "t-passive",
+      "prompt": "把重点放在报告上，说明它已被审阅。",
+      "translation": "这份报告昨天已被审阅。",
+      "tokens": [
+        {
+          "id": "t-e6-1",
+          "text": "The report",
+          "role": "subject"
+        },
+        {
+          "id": "t-e6-2",
+          "text": "was reviewed",
+          "role": "verb"
+        },
+        {
+          "id": "t-e6-3",
+          "text": "yesterday",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "t-e6-1",
+        "t-e6-2",
+        "t-e6-3"
+      ],
+      "explanation": "报告是审阅动作的承受者；was reviewed 构成一般过去时的被动语态。",
+      "hint": "单数 report 搭配 was。"
+    },
+    {
+      "id": "m-e1",
+      "world": "modifier",
+      "lessonId": "m-adjective",
+      "prompt": "评价一项新的方法。",
+      "translation": "这个新方法是可靠的。",
+      "tokens": [
+        {
+          "id": "m-e1-1",
+          "text": "The new method",
+          "role": "subject"
+        },
+        {
+          "id": "m-e1-2",
+          "text": "is",
+          "role": "verb"
+        },
+        {
+          "id": "m-e1-3",
+          "text": "reliable",
+          "role": "complement"
+        }
+      ],
+      "answer": [
+        "m-e1-1",
+        "m-e1-2",
+        "m-e1-3"
+      ],
+      "explanation": "reliable 是形容词，在系动词 is 后作表语，说明主语的性质。",
+      "hint": "句子不是在说方法做了什么，而是在说明它怎么样。"
+    },
+    {
+      "id": "m-e2",
+      "world": "modifier",
+      "lessonId": "m-adverb",
+      "prompt": "说明你认真检查了报告。",
+      "translation": "我仔细检查了这份报告。",
+      "tokens": [
+        {
+          "id": "m-e2-1",
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "id": "m-e2-2",
+          "text": "checked",
+          "role": "verb"
+        },
+        {
+          "id": "m-e2-3",
+          "text": "the report",
+          "role": "object"
+        },
+        {
+          "id": "m-e2-4",
+          "text": "carefully",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "m-e2-1",
+        "m-e2-2",
+        "m-e2-3",
+        "m-e2-4"
+      ],
+      "explanation": "carefully 修饰检查这一动作，可以放在宾语之后，也可以放在动词前。",
+      "hint": "不要把修饰动作的 carefully 换成形容词 careful。",
+      "acceptedAnswers": [
+        [
+          "m-e2-1",
+          "m-e2-4",
+          "m-e2-2",
+          "m-e2-3"
+        ]
+      ]
+    },
+    {
+      "id": "m-e3",
+      "world": "modifier",
+      "lessonId": "m-preposition",
+      "prompt": "补充讨论发生的地点。",
+      "translation": "我们在会议室讨论了这个计划。",
+      "tokens": [
+        {
+          "id": "m-e3-1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "m-e3-2",
+          "text": "discussed",
+          "role": "verb"
+        },
+        {
+          "id": "m-e3-3",
+          "text": "the plan",
+          "role": "object"
+        },
+        {
+          "id": "m-e3-4",
+          "text": "in the meeting room",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "m-e3-1",
+        "m-e3-2",
+        "m-e3-3",
+        "m-e3-4"
+      ],
+      "explanation": "in the meeting room 是补充地点的介词短语；discussed 直接接宾语 the plan。",
+      "hint": "先完成“谁讨论什么”的主干，再补充地点。"
+    },
+    {
+      "id": "m-e4",
+      "world": "modifier",
+      "lessonId": "m-comparison",
+      "prompt": "比较新旧两个方法的可靠性。",
+      "translation": "这个方法比旧方法更可靠。",
+      "tokens": [
+        {
+          "id": "m-e4-1",
+          "text": "This method",
+          "role": "subject"
+        },
+        {
+          "id": "m-e4-2",
+          "text": "is",
+          "role": "verb"
+        },
+        {
+          "id": "m-e4-3",
+          "text": "more reliable",
+          "role": "complement"
+        },
+        {
+          "id": "m-e4-4",
+          "text": "than the old one",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "m-e4-1",
+        "m-e4-2",
+        "m-e4-3",
+        "m-e4-4"
+      ],
+      "explanation": "more reliable 表达更可靠，than 引出比较对象。",
+      "hint": "reliable 通常使用 more 构成比较级。"
+    },
+    {
+      "id": "m-e5",
+      "world": "modifier",
+      "lessonId": "m-nonfinite",
+      "prompt": "说明使用例子的目的。",
+      "translation": "我们用例子来解释这个概念。",
+      "tokens": [
+        {
+          "id": "m-e5-1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "m-e5-2",
+          "text": "use",
+          "role": "verb"
+        },
+        {
+          "id": "m-e5-3",
+          "text": "examples",
+          "role": "object"
+        },
+        {
+          "id": "m-e5-4",
+          "text": "to explain the concept",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "m-e5-1",
+        "m-e5-2",
+        "m-e5-3",
+        "m-e5-4"
+      ],
+      "explanation": "to explain the concept 是不定式短语，在本句中说明使用例子的目的。",
+      "hint": "主干已经是 We use examples，后面的动作补充目的。"
+    },
+    {
+      "id": "m-e6",
+      "world": "modifier",
+      "lessonId": "m-adverb",
+      "prompt": "描述一位新同事高效解决问题。",
+      "translation": "这位新实习生很快解决了这个问题。",
+      "tokens": [
+        {
+          "id": "m-e6-1",
+          "text": "The new intern",
+          "role": "subject"
+        },
+        {
+          "id": "m-e6-2",
+          "text": "quickly",
+          "role": "modifier"
+        },
+        {
+          "id": "m-e6-3",
+          "text": "solved",
+          "role": "verb"
+        },
+        {
+          "id": "m-e6-4",
+          "text": "the problem",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "m-e6-1",
+        "m-e6-2",
+        "m-e6-3",
+        "m-e6-4"
+      ],
+      "explanation": "quickly 修饰 solved；在本句中也可以放到宾语后。",
+      "hint": "new 修饰 intern，quickly 修饰 solved，它们的词性和修饰对象不同。",
+      "acceptedAnswers": [
+        [
+          "m-e6-1",
+          "m-e6-3",
+          "m-e6-4",
+          "m-e6-2"
+        ]
+      ]
+    },
+    {
+      "id": "c-x1",
+      "world": "clause",
+      "lessonId": "c-l1",
+      "prompt": "把关系从句放在它修饰的名词后面。",
+      "translation": "你要的那份报告准备好了。",
+      "tokens": [
+        {
+          "id": "c-x1-a",
+          "text": "The report",
+          "role": "subject"
+        },
+        {
+          "id": "c-x1-b",
+          "text": "that you requested",
+          "role": "modifier"
+        },
+        {
+          "id": "c-x1-c",
+          "text": "is",
+          "role": "verb"
+        },
+        {
+          "id": "c-x1-d",
+          "text": "ready",
+          "role": "complement"
+        }
+      ],
+      "answer": [
+        "c-x1-a",
+        "c-x1-b",
+        "c-x1-c",
+        "c-x1-d"
+      ],
+      "explanation": "主句是 The report is ready；that you requested 限定是哪份报告。",
+      "hint": "先找 The report，再把描述报告的从句贴在它后面。"
+    },
+    {
+      "id": "c-x2",
+      "world": "clause",
+      "lessonId": "c-l2",
+      "prompt": "把一个完整想法放进 think 的宾语位置。",
+      "translation": "我认为这个计划是可行的。",
+      "tokens": [
+        {
+          "id": "c-x2-a",
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "id": "c-x2-b",
+          "text": "think",
+          "role": "verb"
+        },
+        {
+          "id": "c-x2-c",
+          "text": "that the plan is practical",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "c-x2-a",
+        "c-x2-b",
+        "c-x2-c"
+      ],
+      "explanation": "整个 that 从句充当 think 的宾语；从句内部也有自己的主语和谓语。",
+      "hint": "顺序是：谁在想 → think → 想的内容。"
+    },
+    {
+      "id": "c-x3",
+      "world": "clause",
+      "lessonId": "c-l3",
+      "prompt": "先说推迟会议，再用 because 解释原因。",
+      "translation": "我们推迟了会议，因为经理不在。",
+      "tokens": [
+        {
+          "id": "c-x3-a",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "c-x3-b",
+          "text": "postponed",
+          "role": "verb"
+        },
+        {
+          "id": "c-x3-c",
+          "text": "the meeting",
+          "role": "object"
+        },
+        {
+          "id": "c-x3-d",
+          "text": "because",
+          "role": "connector"
+        },
+        {
+          "id": "c-x3-e",
+          "text": "the manager was away",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "c-x3-a",
+        "c-x3-b",
+        "c-x3-c",
+        "c-x3-d",
+        "c-x3-e"
+      ],
+      "explanation": "because 后的完整从句解释主句行为的原因。",
+      "hint": "先完成 We postponed the meeting，再接 because 和原因。"
+    },
+    {
+      "id": "c-x4",
+      "world": "clause",
+      "lessonId": "c-l4",
+      "prompt": "先放 if 条件，再接将采取的行动。",
+      "translation": "如果我们提前完成，就会检查结果。",
+      "tokens": [
+        {
+          "id": "c-x4-a",
+          "text": "If we finish early,",
+          "role": "modifier"
+        },
+        {
+          "id": "c-x4-b",
+          "text": "we",
+          "role": "subject"
+        },
+        {
+          "id": "c-x4-c",
+          "text": "will review",
+          "role": "verb"
+        },
+        {
+          "id": "c-x4-d",
+          "text": "the results",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "c-x4-a",
+        "c-x4-b",
+        "c-x4-c",
+        "c-x4-d"
+      ],
+      "explanation": "开放的未来条件中，if 从句使用 finish，主句用 will review。",
+      "hint": "以 If 开头，主句的 will 放在 we 后面。"
+    },
+    {
+      "id": "c-x5",
+      "world": "clause",
+      "lessonId": "c-l5",
+      "prompt": "先承认任务困难，再说完成了任务。",
+      "translation": "虽然任务很难，我们还是完成了。",
+      "tokens": [
+        {
+          "id": "c-x5-a",
+          "text": "Although the task was difficult,",
+          "role": "modifier"
+        },
+        {
+          "id": "c-x5-b",
+          "text": "we",
+          "role": "subject"
+        },
+        {
+          "id": "c-x5-c",
+          "text": "finished",
+          "role": "verb"
+        },
+        {
+          "id": "c-x5-d",
+          "text": "it",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "c-x5-a",
+        "c-x5-b",
+        "c-x5-c",
+        "c-x5-d"
+      ],
+      "explanation": "Although 引出让步事实，主句直接表达结果，无需再加 but。",
+      "hint": "Although 从句已经自带逗号，然后接 we finished it。"
+    },
+    {
+      "id": "c-x6",
+      "world": "clause",
+      "lessonId": "c-l1",
+      "prompt": "用 who 从句限定是哪位同事。",
+      "translation": "帮助过我的那位同事在这里。",
+      "tokens": [
+        {
+          "id": "c-x6-a",
+          "text": "The colleague",
+          "role": "subject"
+        },
+        {
+          "id": "c-x6-b",
+          "text": "who helped me",
+          "role": "modifier"
+        },
+        {
+          "id": "c-x6-c",
+          "text": "is",
+          "role": "verb"
+        },
+        {
+          "id": "c-x6-d",
+          "text": "here",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "c-x6-a",
+        "c-x6-b",
+        "c-x6-c",
+        "c-x6-d"
+      ],
+      "explanation": "who helped me 紧跟 colleague。主句骨架是 The colleague is here。",
+      "hint": "先说 The colleague，再加“帮助过我”的标签。"
+    },
+    {
+      "id": "e-x1",
+      "world": "expression",
+      "lessonId": "e-l1",
+      "prompt": "把频率副词放在实义动词前。",
+      "translation": "我通常在睡前阅读。",
+      "tokens": [
+        {
+          "id": "e-x1-1",
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "id": "e-x1-2",
+          "text": "usually",
+          "role": "modifier"
+        },
+        {
+          "id": "e-x1-3",
+          "text": "read",
+          "role": "verb"
+        },
+        {
+          "id": "e-x1-4",
+          "text": "before bed",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "e-x1-1",
+        "e-x1-2",
+        "e-x1-3",
+        "e-x1-4"
+      ],
+      "explanation": "usually 修饰 read，before bed 补充时间。",
+      "hint": "先放 I，再放 usually 和 read。",
+      "punctuation": ".",
+      "acceptedAnswers": [
+        [
+          "e-x1-4",
+          "e-x1-1",
+          "e-x1-2",
+          "e-x1-3"
+        ]
+      ]
+    },
+    {
+      "id": "e-x2",
+      "world": "expression",
+      "lessonId": "e-l2",
+      "prompt": "用 Could you 提出礼貌请求。",
+      "translation": "你能在会后分享一下幻灯片吗？",
+      "tokens": [
+        {
+          "id": "e-x2-1",
+          "text": "Could",
+          "role": "verb"
+        },
+        {
+          "id": "e-x2-2",
+          "text": "you",
+          "role": "subject"
+        },
+        {
+          "id": "e-x2-3",
+          "text": "share",
+          "role": "verb"
+        },
+        {
+          "id": "e-x2-4",
+          "text": "the slides",
+          "role": "object"
+        },
+        {
+          "id": "e-x2-5",
+          "text": "after the meeting",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "e-x2-1",
+        "e-x2-2",
+        "e-x2-3",
+        "e-x2-4",
+        "e-x2-5"
+      ],
+      "explanation": "Could you 后接动词原形 share，时间短语放在句末。",
+      "hint": "以 Could you 开头，实义动词 share 放在 you 后面。",
+      "punctuation": "?"
+    },
+    {
+      "id": "e-x3",
+      "world": "expression",
+      "lessonId": "e-l3",
+      "prompt": "把建议写成一个可执行的行动。",
+      "translation": "我们应该一起检查这个计划。",
+      "tokens": [
+        {
+          "id": "e-x3-1",
+          "text": "We",
+          "role": "subject"
+        },
+        {
+          "id": "e-x3-2",
+          "text": "should",
+          "role": "verb"
+        },
+        {
+          "id": "e-x3-3",
+          "text": "review",
+          "role": "verb"
+        },
+        {
+          "id": "e-x3-4",
+          "text": "the plan",
+          "role": "object"
+        },
+        {
+          "id": "e-x3-5",
+          "text": "together",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "e-x3-1",
+        "e-x3-2",
+        "e-x3-3",
+        "e-x3-4",
+        "e-x3-5"
+      ],
+      "explanation": "should 后用原形 review，together 表示一起。",
+      "hint": "主语 We 之后接 should review。",
+      "punctuation": "."
+    },
+    {
+      "id": "e-x4",
+      "world": "expression",
+      "lessonId": "e-l4",
+      "prompt": "汇报已经完成、与现在有关的工作。",
+      "translation": "我已经完成了初稿。",
+      "tokens": [
+        {
+          "id": "e-x4-1",
+          "text": "I",
+          "role": "subject"
+        },
+        {
+          "id": "e-x4-2",
+          "text": "have",
+          "role": "verb"
+        },
+        {
+          "id": "e-x4-3",
+          "text": "finished",
+          "role": "verb"
+        },
+        {
+          "id": "e-x4-4",
+          "text": "the first draft",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "e-x4-1",
+        "e-x4-2",
+        "e-x4-3",
+        "e-x4-4"
+      ],
+      "explanation": "have finished 构成现在完成时，突出目前已完成的结果。",
+      "hint": "I 后接 have，再用 finished。",
+      "punctuation": "."
+    },
+    {
+      "id": "e-x5",
+      "world": "expression",
+      "lessonId": "e-l5",
+      "prompt": "用 suggest that 表达有边界的研究判断。",
+      "translation": "这些结果提示，这种方法可能有所帮助。",
+      "tokens": [
+        {
+          "id": "e-x5-1",
+          "text": "The results",
+          "role": "subject"
+        },
+        {
+          "id": "e-x5-2",
+          "text": "suggest",
+          "role": "verb"
+        },
+        {
+          "id": "e-x5-3",
+          "text": "that the method may help",
+          "role": "object"
+        }
+      ],
+      "answer": [
+        "e-x5-1",
+        "e-x5-2",
+        "e-x5-3"
+      ],
+      "explanation": "整个 that 从句是 suggest 的宾语；may 保留不确定性。",
+      "hint": "先说 The results，再接 suggest 和完整判断。",
+      "punctuation": "."
+    },
+    {
+      "id": "e-x6",
+      "world": "expression",
+      "lessonId": "e-l2",
+      "prompt": "请对方再次解释一个概念。",
+      "translation": "你能再解释一下主要观点吗？",
+      "tokens": [
+        {
+          "id": "e-x6-1",
+          "text": "Could",
+          "role": "verb"
+        },
+        {
+          "id": "e-x6-2",
+          "text": "you",
+          "role": "subject"
+        },
+        {
+          "id": "e-x6-3",
+          "text": "explain",
+          "role": "verb"
+        },
+        {
+          "id": "e-x6-4",
+          "text": "the main idea",
+          "role": "object"
+        },
+        {
+          "id": "e-x6-5",
+          "text": "again",
+          "role": "modifier"
+        }
+      ],
+      "answer": [
+        "e-x6-1",
+        "e-x6-2",
+        "e-x6-3",
+        "e-x6-4",
+        "e-x6-5"
+      ],
+      "explanation": "Could you explain... 是礼貌请求，again 补充“再一次”。",
+      "hint": "Could you 后面接 explain，again 放在句末。",
+      "punctuation": "?"
+    }
+  ],
+  "writingChallenges": [
+    {
+      "id": "p-w1",
+      "world": "parts",
+      "lessonId": "p-roles",
+      "title": "一句话介绍你的工作",
+      "prompt": "介绍你或团队平时做的一件事，可选择学习、实习、开发或研究场景。",
+      "requirements": [
+        "写一个至少 6 个词的英语句子。",
+        "用 I、We 或 My team 明确行动者，并加入一个具体动作。",
+        "自行检查动作表达是否准确，以及需要的宾语等信息是否完整。"
+      ],
+      "hint": "I review ... / We develop ... / My team studies ...；也可以选择其他具体动作。My team 作单数主语时注意谓语形式。本地只检查长度和主语词，动作是否恰当由你自查。",
+      "reference": "I review research papers with my team every week.",
+      "referenceZh": "我每周和团队一起阅读研究论文。",
+      "checks": [
+        {
+          "label": "至少 6 个空格分隔词",
+          "pattern": "^\\S+(?:\\s+\\S+){5,}$",
+          "flags": "i"
+        },
+        {
+          "label": "包含明确的主语表达",
+          "pattern": "\\b(?:I|We|My team)\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "p-w2",
+      "world": "parts",
+      "lessonId": "p-modifiers",
+      "title": "同时描述特点与做事方式",
+      "prompt": "评价一种工作方式：它是什么样的，实际运转得怎样？",
+      "requirements": [
+        "写一个至少 7 个词的句子。",
+        "使用 is + 一个特点词，并用 works + 一个方式副词。",
+        "用 and 连接两部分，检查主语是否适合两个谓语。"
+      ],
+      "hint": "The new workflow is efficient and works smoothly. 也可替换为 practical / useful 和 well / reliably。",
+      "reference": "The new workflow is efficient and works smoothly.",
+      "referenceZh": "新的工作流程效率高，而且运转顺畅。",
+      "checks": [
+        {
+          "label": "至少 7 个空格分隔词",
+          "pattern": "^\\S+(?:\\s+\\S+){6,}$",
+          "flags": "i"
+        },
+        {
+          "label": "包含 is + 支持的特点词",
+          "pattern": "\\bis\\s+(?:efficient|practical|useful|simple|effective)\\b",
+          "flags": "i"
+        },
+        {
+          "label": "用 and 连接 works + 方式",
+          "pattern": "\\band\\s+works\\s+(?:smoothly|well|reliably|efficiently)\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "s-w1",
+      "world": "sentence",
+      "lessonId": "s-svo",
+      "title": "用一句话记录会议事项",
+      "prompt": "用主语 + 动词 + 宾语写出你或团队在会议里讨论或审阅的内容。",
+      "requirements": [
+        "写一个至少 6 个词的句子。",
+        "以 I 或 We 开头，用 discussed 或 reviewed 表达已做的事。",
+        "补充具体对象以及会议或时间信息；这些内容需要自行核对语义。"
+      ],
+      "hint": "We discussed the timeline during today’s meeting. reviewed 后也要写清审阅对象。",
+      "reference": "We discussed the timeline during today’s meeting.",
+      "referenceZh": "我们在今天的会议中讨论了时间安排。",
+      "checks": [
+        {
+          "label": "至少 6 个空格分隔词",
+          "pattern": "^\\S+(?:\\s+\\S+){5,}$",
+          "flags": "i"
+        },
+        {
+          "label": "以 I / We + 支持的过去式动词开头",
+          "pattern": "^(?:I|We)\\s+(?:discussed|reviewed)\\s+\\S+",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "s-w2",
+      "world": "sentence",
+      "lessonId": "s-svoc",
+      "title": "把改进效果说具体",
+      "prompt": "用 made + 宾语 + 比较级，描述反馈、练习或新工具怎样改善了工作。",
+      "requirements": [
+        "写一个至少 7 个词的句子。",
+        "使用 made，并用 my / our / the 引出被改善的对象。",
+        "使用 clearer、better、easier 或 stronger 描述结果，检查它是否能描述该对象。"
+      ],
+      "hint": "The feedback made my research question clearer. 词块之间要有合理的因果关系。",
+      "reference": "The feedback made my research question clearer.",
+      "referenceZh": "这些反馈让我的研究问题更清晰了。",
+      "checks": [
+        {
+          "label": "至少 7 个空格分隔词",
+          "pattern": "^\\S+(?:\\s+\\S+){6,}$",
+          "flags": "i"
+        },
+        {
+          "label": "包含 made + 对象 + 支持的比较级",
+          "pattern": "\\bmade\\s+(?:my|our|the)\\s+.+\\s+(?:clearer|better|easier|stronger)\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "t-w1",
+      "world": "tense",
+      "lessonId": "t-perfect",
+      "title": "汇报已经完成的任务",
+      "prompt": "给同事写一句话，说明初稿已经完成，现在可以分享。",
+      "requirements": [
+        "使用 have 或 has 与 finished、completed 或 written 中一个过去分词的组合。",
+        "加入 can share 或 can send，说明现在能够采取的下一步。"
+      ],
+      "hint": "可以先报告完成情况，再用 so 连接现在能做的事。",
+      "reference": "I have finished the draft, so I can share it with the team.",
+      "referenceZh": "我已经完成初稿，所以现在可以分享给团队。",
+      "checks": [
+        {
+          "label": "出现目标完成时词形组合",
+          "pattern": "\\b(?:have|has)\\s+(?:(?:already|just)\\s+)?(?:finished|completed|written)\\b",
+          "flags": "i"
+        },
+        {
+          "label": "出现 can share 或 can send",
+          "pattern": "\\bcan\\s+(?:share|send)\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "t-w2",
+      "world": "tense",
+      "lessonId": "t-modal",
+      "title": "提出一个团队建议",
+      "prompt": "针对实验或项目中的不确定性，写一句包含建议及原因的话。",
+      "requirements": [
+        "使用 should + 动词提出建议。",
+        "使用 because 引出原因，并自行检查原因是否与建议有关。"
+      ],
+      "hint": "可以建议再检查一次，再解释你担心的问题。",
+      "reference": "We should check the results again because the sample is small.",
+      "referenceZh": "我们应该再检查一下结果，因为样本很小。",
+      "checks": [
+        {
+          "label": "出现 should 与后续英文词",
+          "pattern": "\\bshould\\s+[a-z]+\\b",
+          "flags": "i"
+        },
+        {
+          "label": "出现 because 引导标记",
+          "pattern": "\\bbecause\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "m-w1",
+      "world": "modifier",
+      "lessonId": "m-comparison",
+      "title": "比较两个工作方案",
+      "prompt": "用一句话比较两个方法、工具或安排，说明哪一个更可靠或更灵活。",
+      "requirements": [
+        "使用 more reliable than 或 more flexible than。",
+        "自行确认比较对象清楚，而且比较的是同一种性质。"
+      ],
+      "hint": "可以用 This method 或 This schedule 作主语，than 后说出另一个方案。",
+      "reference": "This method is more reliable than the old one.",
+      "referenceZh": "这个方法比旧方法更可靠。",
+      "checks": [
+        {
+          "label": "出现指定比较结构",
+          "pattern": "\\bmore\\s+(?:reliable|flexible)\\s+than\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "m-w2",
+      "world": "modifier",
+      "lessonId": "m-nonfinite",
+      "title": "说清楚行动目的",
+      "prompt": "描述你在日常工作或学习中做的一件事，并说明目的。",
+      "requirements": [
+        "使用 to explain、to improve 或 to learn 引出目标动作。",
+        "自行确认前面已有完整的主句，而不只是一个 to do 短语。"
+      ],
+      "hint": "可以描述为什么使用例子、练习英语或阅读论文。",
+      "reference": "I read papers to learn new methods.",
+      "referenceZh": "我阅读论文来学习新方法。",
+      "checks": [
+        {
+          "label": "出现指定不定式词形",
+          "pattern": "\\bto\\s+(?:explain|improve|learn)\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "c-w1",
+      "world": "clause",
+      "lessonId": "c-l3",
+      "title": "向同事解释一个安排",
+      "prompt": "写一句话，解释你为什么想改会议时间。",
+      "requirements": [
+        "用 because 引出理由。",
+        "主句表达一个与会议安排有关的想法；理由尽量具体。"
+      ],
+      "hint": "可以从 I would like to move the meeting... 开始，再用 because 接一个完整从句。",
+      "reference": "I would like to move the meeting because I have a class tomorrow morning.",
+      "referenceZh": "我想改一下会议时间，因为我明天上午有课。",
+      "checks": [
+        {
+          "label": "包含 because 原因连接词",
+          "pattern": "\\bbecause\\b",
+          "flags": "i"
+        },
+        {
+          "label": "包含 meeting 会议词汇",
+          "pattern": "\\bmeeting\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "c-w2",
+      "world": "clause",
+      "lessonId": "c-l4",
+      "title": "约定研究工作的下一步",
+      "prompt": "写一句真实条件句，说明数据准备好后你会做什么。",
+      "requirements": [
+        "用 if 引出条件，主句包含 will。",
+        "让条件与数据准备有关，并说明一个具体行动。"
+      ],
+      "hint": "If the data is ready, I will...；data 也可按复数理解使用 are，本关不判断这一选择。",
+      "reference": "If the data is ready, I will run the experiment.",
+      "referenceZh": "如果数据准备好了，我就会运行实验。",
+      "checks": [
+        {
+          "label": "包含 if 条件连接词",
+          "pattern": "\\bif\\b",
+          "flags": "i"
+        },
+        {
+          "label": "包含 will",
+          "pattern": "\\bwill\\b",
+          "flags": "i"
+        },
+        {
+          "label": "包含 data",
+          "pattern": "\\bdata\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "e-w1",
+      "world": "expression",
+      "lessonId": "e-l2",
+      "title": "给同事发一条礼貌请求",
+      "prompt": "请同事在会议后把幻灯片发给你，写成一句礼貌的英语请求。",
+      "requirements": [
+        "使用 Could you 开头的礼貌请求。",
+        "提到 slides，并自行补充合适的动作或时间。"
+      ],
+      "hint": "可以使用 share、send 或 email；注意 could 后实义动词使用原形。",
+      "reference": "Could you send me the slides after the meeting?",
+      "referenceZh": "你能在会议后把幻灯片发给我吗？",
+      "checks": [
+        {
+          "label": "包含 Could you 请求结构",
+          "pattern": "\\bcould\\s+you\\b",
+          "flags": "i"
+        },
+        {
+          "label": "包含 slides",
+          "pattern": "\\bslides\\b",
+          "flags": "i"
+        }
+      ]
+    },
+    {
+      "id": "e-w2",
+      "world": "expression",
+      "lessonId": "e-l5",
+      "title": "写一句谨慎的研究结论",
+      "prompt": "假设小规模实验观察到一种方法可能有帮助，写一句保留不确定性的研究陈述。",
+      "requirements": [
+        "使用 results 和 suggest，交代判断来自结果。",
+        "使用 may，避免把可能性写成已经证实的事实。",
+        "自行写出一种具体的可能效果；这是结构练习，不证明效果真实存在。"
+      ],
+      "hint": "The results suggest that... may...；例如 improve retrieval accuracy，但实际论文必须有对应证据。",
+      "reference": "The results suggest that this method may improve retrieval accuracy.",
+      "referenceZh": "这些结果提示，这种方法可能提高检索准确率。",
+      "checks": [
+        {
+          "label": "包含 results",
+          "pattern": "\\bresults\\b",
+          "flags": "i"
+        },
+        {
+          "label": "包含 suggest",
+          "pattern": "\\bsuggest\\b",
+          "flags": "i"
+        },
+        {
+          "label": "包含 may",
+          "pattern": "\\bmay\\b",
+          "flags": "i"
+        }
+      ]
+    }
+  ]
+}
